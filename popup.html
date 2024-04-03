@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Remotesole: Remote Console</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Remotesole: Remote Console</h2>
+    <p id="YourID">Your access code:</p>
+    <input type="text" id="friendIdInput" placeholder="Friend access code">
+    <div>
+      _______
+    </div>
+    <a class="connecttocliButton" href="#"><span></span>Connect</a>
+    <button id="openDevTools">Open Dev Tools</button>
+  </div>
+</body>
+<style>
+body {
+  background: linear-gradient(0deg, #7246d7 0%, #4714ff 100%);
+  background-size: cover;
+  animation: Gradient 15s ease infinite;
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#YourID,
+#friendIdInput {
+  margin-bottom: 10px;
+}
+
+.connecttocliButton {
+  background-color: green;
+  color: black;
+  padding: 15px 20px; /* Increase padding to make button larger */
+  border: none;
+  border-radius: 55px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#friendIdInput {
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 1px;
+  padding: 10px;
+  font-size: 10px;
+  color: purple;
+  border-radius: 55px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+
+}
+
+
+</style>
+</html>

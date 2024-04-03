@@ -1,0 +1,31 @@
+@font-face {
+    font-family: fontx;
+    src: url(../fonts/regular.otf);
+  }
+  
+  @font-face {
+    font-family: fontx;
+    src: url(../fonts/bold.otf);
+    font-weight: 700;
+  }
+  
+  * {
+    font-family: fontx, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 600px;
+    width: 450px;
+    font-family: Arial;
+    direction: rtl;
+    overflow: hidden !important;
+    margin: unset;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }

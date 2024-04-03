@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Remotesole",
+  "version": "1.0",
+  "description": "Connects to a WebSocket and allows sending messages to console.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [{
+    "matches": ["<all_urls>"],
+    "resources": ["https://cdn.jsdelivr.net/npm/socket.io-client@4.7.5/+esm"]
+  }],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
